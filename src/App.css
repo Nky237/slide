@@ -46,3 +46,46 @@ body,
   box-shadow: 5px 10px #888888;
 }
 
+@media screen and (max-width: 1024px){
+  .slide-wrapper{
+    margin-left: 390px;
+      }
+
+      .slide-wrapper{
+        width: 40%;
+        margin-left: 200px;
+        box-shadow: 5px 10px #888888;
+      }
+      
+  
+}
+/* FOR MOBILE PHONES - SMALL DEVICES */
+@media screen and (max-width: 600px){
+  .App .btn{
+    height: 50px;
+    width: 90px;
+     
+  }
+  .slide-wrapper{
+    width: 49%;
+    margin-left: 120px;
+    box-shadow: 5px 10px #888888;
+  }
+ 
+
+}
+@media screen and (max-width: 300px){
+  .App .btn{
+    height: 50px;
+    width: 90px;
+    margin-left: 5px;
+     
+  }
+  .slide-wrapper{
+    width: 70%;
+    margin-left: 50px;
+    box-shadow: 5px 10px #888888;
+  }
+ 
+
+}
